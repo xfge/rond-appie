@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import logo7 from '../../assets/images/logo-7.png';
-import logo from '../../assets/images/logo.png';
+
 import StickyMenu from '../../lib/StickyMenu';
-import Navigation from '../Navigation';
+import logo from '../../assets/images/logo.png';
+import logo7 from '../../assets/images/logo-7.png';
 
 function HomeOneHeader({
     lang,
@@ -36,9 +36,7 @@ function HomeOneHeader({
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-1 col-sm-1 order-3 order-sm-2">
-                            <div className="appie-header-main-menu">
-                                <Navigation />
-                            </div>
+                            <div className="appie-header-main-menu">{/* <Navigation /> */}</div>
                         </div>
                         <div className="col-lg-4  col-md-7 col-sm-6 col-6 order-2 order-sm-3">
                             <div className="appie-btn-box text-right">
@@ -98,9 +96,6 @@ function HomeOneHeader({
                                             LTR
                                         </span>
                                     ))}
-                                <a className="login-btn" href="#">
-                                    <i className="fal fa-user" /> Login
-                                </a>
                                 <a className="main-btn ml-30" href="#">
                                     Get Started
                                 </a>

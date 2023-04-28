@@ -11,13 +11,15 @@ function ServicesHomeOne({ className }) {
                 <div className="row justify-content-center">
                     <div className="col-lg-6">
                         <div className="appie-section-title text-center">
-                            <h3 className="appie-title">
-                                Designed with <br /> The applicant in mind.
-                            </h3>
-                            <p>The full monty spiffing good time no biggie cack grub fantastic. </p>
+                            <h3 className="appie-title">Check out your life in stats.</h3>
+                            <p>
+                                Rond provides you with various charts and metrics. You can always
+                                stay on top of your activity trends.
+                            </p>
                         </div>
                     </div>
                 </div>
+
                 <div className="row">
                     <div className="col-lg-3 col-md-6">
                         <div
@@ -43,6 +45,7 @@ function ServicesHomeOne({ className }) {
                                 <img src={IconTwo} alt="" />
                                 <span>2</span>
                             </div>
+
                             <h4 className="appie-title">Designing</h4>
                             <p>Mucker plastered bugger all mate morish are.</p>
                         </div>

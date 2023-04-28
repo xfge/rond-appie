@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import thumb from '../../assets/images/features-thumb-1.png';
 import shapeSix from '../../assets/images/shape/shape-6.png';
 import shapeSeven from '../../assets/images/shape/shape-7.png';
@@ -100,17 +99,15 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-duration="2000ms"
                                             data-wow-delay="600ms"
                                         >
-                                            <span>Custom Reacyions</span>
-                                            <h3 className="title">
-                                                Let the <br /> Conversation flow
-                                            </h3>
+                                            <span>Pure Native Design</span>
+                                            <h3 className="title">Easy to use</h3>
                                             <p>
-                                                Car boot absolutely bladdered posh burke the
-                                                wireless mush some dodg.
+                                                Rond runs just like a native app <br />
+                                                "Health", "Fitness"
                                             </p>
-                                            <Link className="main-btn" to="/about-us">
-                                                Learn More
-                                            </Link>
+                                            {/* <Link className="main-btn" to="/about-us"> */}
+                                            {/*    Learn More */}
+                                            {/* </Link> */}
                                         </div>
                                     </div>
                                 </div>

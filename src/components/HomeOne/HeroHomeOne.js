@@ -1,9 +1,9 @@
 import React from 'react';
 import heroThumbOne from '../../assets/images/hero-thumb-1.png';
 import heroThumbTwo from '../../assets/images/hero-thumb-2.png';
-import shapeTwo from '../../assets/images/shape/shape-2.png';
-import shapeThree from '../../assets/images/shape/shape-3.png';
 import shapeFour from '../../assets/images/shape/shape-4.png';
+import shapeThree from '../../assets/images/shape/shape-3.png';
+import shapeTwo from '../../assets/images/shape/shape-2.png';
 
 function HeroHomeOne({ className }) {
     return (
@@ -13,24 +13,18 @@ function HeroHomeOne({ className }) {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="appie-hero-content">
-                                <span>Welcome To Appie</span>
+                                <span>Welcome To Rond</span>
                                 <h1 className="appie-title">
-                                    Manage it all, in this all new system.
+                                    Track your itinerary. Automatically.
                                 </h1>
                                 <p>
-                                    Hanky panky lavatory up the duff jolly good cack brolly is
-                                    chinwag zonked happy days sloshed.
+                                    Places you've visited are logged automatically. Rond organizes
+                                    your activities in timeline.
                                 </p>
                                 <ul>
                                     <li>
                                         <a href="#">
                                             <i className="fab fa-apple" /> Download for iOS
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a className="item-2" href="#">
-                                            <i className="fab fa-google-play" /> Download for
-                                            Android
                                         </a>
                                     </li>
                                 </ul>

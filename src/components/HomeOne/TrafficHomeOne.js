@@ -8,11 +8,13 @@ function TrafficHomeOne({ className }) {
                 <div className="row">
                     <div className="col-lg-7">
                         <div className="appie-traffic-title">
-                            <span>Traffic</span>
-                            <h3 className="title">Stage reporting with 50k queries.</h3>
+                            <span>Native Design</span>
+                            <h3 className="title">
+                                Clear workflow. <br /> Easy to use.
+                            </h3>
                             <p>
-                                He nicked it tickety boo harry the cras bargy chap mush spiffing
-                                spend a penny the full monty burke butty.
+                                Inspired from the excellent native apps: "Health", "Fitness". Your
+                                must be familiar with everything in Rond.
                             </p>
                         </div>
                         <div className="row">
@@ -21,8 +23,8 @@ function TrafficHomeOne({ className }) {
                                     <div className="icon">
                                         <i className="fal fa-check" />
                                     </div>
-                                    <h5 className="title">Carefully designed</h5>
-                                    <p>Mucker plastered bugger all mate morish are.</p>
+                                    <h5 className="title">Apple Health</h5>
+                                    <p>Check out your health data during each visit.</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6">
@@ -30,8 +32,8 @@ function TrafficHomeOne({ className }) {
                                     <div className="icon">
                                         <i className="fal fa-check" />
                                     </div>
-                                    <h5 className="title">Choose a App</h5>
-                                    <p>Mucker plastered bugger all mate morish are.</p>
+                                    <h5 className="title">Fitness</h5>
+                                    <p>Fitness from Apple Watch is synced.</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6">
@@ -39,8 +41,8 @@ function TrafficHomeOne({ className }) {
                                     <div className="icon">
                                         <i className="fal fa-check" />
                                     </div>
-                                    <h5 className="title">Seamless Sync</h5>
-                                    <p>Mucker plastered bugger all mate morish are.</p>
+                                    <h5 className="title">Dark Mode</h5>
+                                    <p>Experience a great dark mode.</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6">
@@ -48,15 +50,8 @@ function TrafficHomeOne({ className }) {
                                     <div className="icon">
                                         <i className="fal fa-check" />
                                     </div>
-                                    <h5 className="title">User Interactive</h5>
-                                    <p>Mucker plastered bugger all mate morish are.</p>
-                                </div>
-                            </div>
-                            <div className="col-lg-12">
-                                <div className="traffic-btn mt-50">
-                                    <a className="main-btn" href="#">
-                                        Learn More <i className="fal fa-arrow-right" />
-                                    </a>
+                                    <h5 className="title">iCloud Sync (in dev)</h5>
+                                    <p>Review your data in all iCloud devices.</p>
                                 </div>
                             </div>
                         </div>
