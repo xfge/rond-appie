@@ -23,7 +23,6 @@ jobs:
 
       - name: yarn install, build
         run: |
-          npm install
           yarn install
           yarn run build --if-present
 
