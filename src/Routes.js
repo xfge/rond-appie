@@ -1,26 +1,26 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+
 import AboutUs from './components/AboutUs';
 import AboutUsTwo from './components/AboutUs/AboutUsTwo';
 import Contact from './components/Contact';
 import Error from './components/Error';
-import Loader from './components/Helper/Loader';
-import ScrollToTop from './components/Helper/ScrollToTop';
 import HomeDark from './components/HomeDark';
 import HomeEight from './components/HomeEight';
 import HomeFive from './components/HomeFive';
 import HomeFour from './components/HomeFour';
-import HomeOne from './components/HomeOne';
 import HomeRtl from './components/HomeRtl';
 import HomeSeven from './components/HomeSeven';
 import HomeSix from './components/HomeSix';
 import HomeThree from './components/HomeThree';
 import Hometwo from './components/HomeTwo';
+import Loader from './components/Helper/Loader';
 import News from './components/News';
-import SingleNews from './components/News/SingleNews';
+import ScrollToTop from './components/Helper/ScrollToTop';
 import Service from './components/Service';
-import Shops from './components/Shops';
 import ShopDetails from './components/Shops/Details';
+import Shops from './components/Shops';
+import SingleNews from './components/News/SingleNews';
 
 function Routes() {
     const [loading, setLoading] = useState(true);
@@ -43,7 +43,7 @@ function Routes() {
                 <Router>
                     <ScrollToTop>
                         <Switch>
-                            <Route exact path="/" component={HomeOne} />
+                            <Route exact path="/" component={HomeDark} />
                             <Route exact path="/home-two" component={Hometwo} />
                             <Route exact path="/home-three" component={HomeThree} />
                             <Route exact path="/home-four" component={HomeFour} />
