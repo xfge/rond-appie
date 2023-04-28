@@ -14,7 +14,7 @@ function HeroHomeOne({ className }) {
                             <div className="appie-hero-content">
                                 <span>Welcome To Rond</span>
                                 <h1 className="appie-title">
-                                    Track your itinerary. <br /> Automatically.
+                                    Location-Based <br /> Life Story.
                                 </h1>
                                 <p>
                                     Places you've visited are logged automatically. Rond organizes

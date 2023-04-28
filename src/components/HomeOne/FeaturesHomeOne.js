@@ -102,12 +102,9 @@ function FeaturesHomeOne({ className }) {
                                         >
                                             <span>Logged automatically</span>
                                             <h3 className="title">
-                                                Don't bother recording yourself.
+                                                Track your itinerary. Automatically.
                                             </h3>
-                                            <p>
-                                                It's time to say goodbye to manual log details of
-                                                every visit.
-                                            </p>
+                                            <p>Never bother logging each visit manually.</p>
                                         </div>
                                     </div>
                                 </div>
