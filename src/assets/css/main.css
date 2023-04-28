@@ -2972,6 +2972,11 @@ p {
   transform: translateY(-50%);
   width: 42%;
 }
+@media (min-width: 991px) {
+  .traffic-thumb-only-mobile {
+    display: none;
+  }
+}
 @media (max-width: 767px) {
   .appie-traffic-area .traffic-thumb {
     display: none;

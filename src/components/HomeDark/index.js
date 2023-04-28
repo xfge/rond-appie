@@ -2,12 +2,12 @@ import React, { useEffect } from 'react';
 import useToggle from '../../Hooks/useToggle';
 import BackToTop from '../BackToTop';
 import FaqHomeOne from '../HomeOne/FaqHomeOne';
-import FeaturesHomeOne from '../HomeOne/FeaturesHomeOne';
 import FooterHomeOne from '../HomeOne/FooterHomeOne';
 import HeroHomeOne from '../HomeOne/HeroHomeOne';
 import HomeOneHeader from '../HomeOne/HomeOneHeader';
-import ServicesHomeOne from '../HomeOne/ServicesHomeOne';
 import TrafficHomeOne from '../HomeOne/TrafficHomeOne';
+import FeaturesHomeTwo from '../HomeTwo/FeaturesHomeTwo';
+import FeaturesHomeOne from '../HomeOne/FeaturesHomeOne';
 
 function HomeDark() {
     const [darkMode, setDarkMode] = useToggle(true);
@@ -33,8 +33,9 @@ function HomeDark() {
                 changeMode={setDarkMode.toggle}
             />
             <HeroHomeOne className={darkMode ? 'appie-hero-area-dark' : ''} />
-            <ServicesHomeOne className={darkMode ? 'appie-service-area-dark' : ''} />
             <FeaturesHomeOne className={darkMode ? 'appie-features-area-dark' : ''} />
+            <FeaturesHomeTwo className={darkMode ? 'appie-features-area-dark' : ''} />
+            {/* <ServicesHomeOne className={darkMode ? 'appie-service-area-dark' : ''} /> */}
             <TrafficHomeOne className={darkMode ? 'appie-traffic-area-dark' : ''} />
             {/* <TestimonialHomeOne /> */}
             {/* <TeamHomeOne className={darkMode ? 'appie-team-area-dark' : ''} /> */}

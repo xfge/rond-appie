@@ -1,6 +1,5 @@
 import React from 'react';
-import heroThumbOne from '../../assets/images/hero-thumb-1.png';
-import heroThumbTwo from '../../assets/images/hero-thumb-2.png';
+import heroThumbOne from '../../assets/images/1_iphone13blue_portrait.png';
 import shapeFour from '../../assets/images/shape/shape-4.png';
 import shapeThree from '../../assets/images/shape/shape-3.png';
 import shapeTwo from '../../assets/images/shape/shape-2.png';
@@ -15,7 +14,7 @@ function HeroHomeOne({ className }) {
                             <div className="appie-hero-content">
                                 <span>Welcome To Rond</span>
                                 <h1 className="appie-title">
-                                    Track your itinerary. Automatically.
+                                    Track your itinerary. <br /> Automatically.
                                 </h1>
                                 <p>
                                     Places you've visited are logged automatically. Rond organizes
@@ -37,14 +36,7 @@ function HeroHomeOne({ className }) {
                                     data-wow-duration="2000ms"
                                     data-wow-delay="200ms"
                                 >
-                                    <img src={heroThumbOne} alt="" />
-                                </div>
-                                <div
-                                    className="thumb-2 wow animated fadeInRight"
-                                    data-wow-duration="2000ms"
-                                    data-wow-delay="600ms"
-                                >
-                                    <img src={heroThumbTwo} alt="" />
+                                    <img src={heroThumbOne} width={400} alt="" />
                                 </div>
                             </div>
                         </div>

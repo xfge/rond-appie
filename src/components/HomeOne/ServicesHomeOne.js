@@ -29,7 +29,6 @@ function ServicesHomeOne({ className }) {
                         >
                             <div className="icon">
                                 <img src={IconOne} alt="" />
-                                <span>1</span>
                             </div>
                             <h4 className="appie-title">Searching</h4>
                             <p>Mucker plastered bugger all mate morish are.</p>
@@ -43,7 +42,6 @@ function ServicesHomeOne({ className }) {
                         >
                             <div className="icon">
                                 <img src={IconTwo} alt="" />
-                                <span>2</span>
                             </div>
 
                             <h4 className="appie-title">Designing</h4>
@@ -58,7 +56,6 @@ function ServicesHomeOne({ className }) {
                         >
                             <div className="icon">
                                 <img src={IconThree} alt="" />
-                                <span>3</span>
                             </div>
                             <h4 className="appie-title">Building</h4>
                             <p>Mucker plastered bugger all mate morish are.</p>
@@ -72,7 +69,6 @@ function ServicesHomeOne({ className }) {
                         >
                             <div className="icon">
                                 <img src={IconFour} alt="" />
-                                <span>4</span>
                             </div>
                             <h4 className="appie-title">Suporting</h4>
                             <p>Mucker plastered bugger all mate morish are.</p>

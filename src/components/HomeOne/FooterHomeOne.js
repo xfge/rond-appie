@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/logo.png';
+import logo from '../../assets/images/logo-white.png';
 
 function FooterHomeOne({ className }) {
     return (
@@ -8,63 +8,24 @@ function FooterHomeOne({ className }) {
             <section className={`appie-footer-area ${className || ''}`}>
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-6 col-md-6">
                             <div className="footer-about-widget">
                                 <div className="logo">
                                     <a href="#">
-                                        <img src={logo} alt="" />
+                                        <img src={logo} width={200} alt="" />
                                     </a>
-                                </div>
-                                <p>
-                                    Appie WordPress is theme is the last theme you will ever have.
-                                </p>
-                                <a href="#">
-                                    Read More <i className="fal fa-arrow-right" />
-                                </a>
-                                <div className="social mt-30">
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fab fa-facebook-f" />
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fab fa-twitter" />
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fab fa-pinterest-p" />
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fab fa-linkedin-in" />
-                                            </a>
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-2 col-md-6">
+                        <div className="col-lg-3 col-md-6">
                             <div className="footer-navigation">
-                                <h4 className="title">Company</h4>
+                                <h4 className="title">App</h4>
                                 <ul>
                                     <li>
-                                        <Link to="/about-us">About Us</Link>
+                                        <Link to="/">Features</Link>
                                     </li>
                                     <li>
-                                        <Link to="/Service">Service</Link>
-                                    </li>
-                                    <li>
-                                        <a href="#">Case Studies</a>
-                                    </li>
-                                    <li>
-                                        <Link to="/news">Blog</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/contact">Contact</Link>
+                                        <Link to="/">Roadmap</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -74,46 +35,29 @@ function FooterHomeOne({ className }) {
                                 <h4 className="title">Support</h4>
                                 <ul>
                                     <li>
-                                        <Link to="/about-us">Community</Link>
+                                        <Link to="/">What's New</Link>
                                     </li>
                                     <li>
-                                        <a href="#">Resources</a>
+                                        <Link to="/">Privacy Notice</Link>
                                     </li>
                                     <li>
-                                        <a href="#">Faqs</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Privacy Policy</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Careers</a>
+                                        <Link to="/">Terms of Use</Link>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6">
-                            <div className="footer-widget-info">
-                                <h4 className="title">Get In Touch</h4>
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <i className="fal fa-envelope" /> support@appie.com
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i className="fal fa-phone" /> +(642) 342 762 44
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i className="fal fa-map-marker-alt" /> 442 Belle Terre
-                                            St Floor 7, San Francisco, AV 4206
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                        {/* <div className="col-lg-3 col-md-6"> */}
+                        {/*    <div className="footer-widget-info"> */}
+                        {/*        <h4 className="title">Get In Touch</h4> */}
+                        {/*        <ul> */}
+                        {/*            <li> */}
+                        {/*                <a href="#"> */}
+                        {/*                    <i className="fal fa-envelope" /> demo@apple.com */}
+                        {/*                </a> */}
+                        {/*            </li> */}
+                        {/*        </ul> */}
+                        {/*    </div> */}
+                        {/* </div> */}
                     </div>
                     <div className="row">
                         <div className="col-lg-12">
@@ -123,12 +67,6 @@ function FooterHomeOne({ className }) {
                                         <li>
                                             <a href="#">
                                                 <i className="fab fa-apple" /> Download for iOS
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a className="item-2" href="#">
-                                                <i className="fab fa-google-play" /> Download for
-                                                Android
                                             </a>
                                         </li>
                                     </ul>

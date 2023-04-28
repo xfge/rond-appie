@@ -1,5 +1,5 @@
 import React from 'react';
-import thumb from '../../assets/images/traffic-thumb.png';
+import thumb from '../../assets/images/screenshot-forest.png';
 
 function TrafficHomeOne({ className }) {
     return (
@@ -9,12 +9,10 @@ function TrafficHomeOne({ className }) {
                     <div className="col-lg-7">
                         <div className="appie-traffic-title">
                             <span>Native Design</span>
-                            <h3 className="title">
-                                Clear workflow. <br /> Easy to use.
-                            </h3>
+                            <h3 className="title">Straightforward. Native experience.</h3>
                             <p>
-                                Inspired from the excellent native apps: "Health", "Fitness". Your
-                                must be familiar with everything in Rond.
+                                Inspired from native apps like "Health", "Fitness". You must be
+                                familiar with everything here.
                             </p>
                         </div>
                         <div className="row">
@@ -24,7 +22,7 @@ function TrafficHomeOne({ className }) {
                                         <i className="fal fa-check" />
                                     </div>
                                     <h5 className="title">Apple Health</h5>
-                                    <p>Check out your health data during each visit.</p>
+                                    <p>Check out your health data & Fitness records.</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6">
@@ -32,8 +30,8 @@ function TrafficHomeOne({ className }) {
                                     <div className="icon">
                                         <i className="fal fa-check" />
                                     </div>
-                                    <h5 className="title">Fitness</h5>
-                                    <p>Fitness from Apple Watch is synced.</p>
+                                    <h5 className="title">Localized</h5>
+                                    <p>Prepared for a global audience. Powered by ChatGPT.</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6">
@@ -41,8 +39,8 @@ function TrafficHomeOne({ className }) {
                                     <div className="icon">
                                         <i className="fal fa-check" />
                                     </div>
-                                    <h5 className="title">Dark Mode</h5>
-                                    <p>Experience a great dark mode.</p>
+                                    <h5 className="title">Customizable</h5>
+                                    <p>Decorate your activities by native symbols.</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6">
@@ -50,8 +48,21 @@ function TrafficHomeOne({ className }) {
                                     <div className="icon">
                                         <i className="fal fa-check" />
                                     </div>
-                                    <h5 className="title">iCloud Sync (in dev)</h5>
-                                    <p>Review your data in all iCloud devices.</p>
+                                    <h5 className="title">Dark Mode</h5>
+                                    <p>Experience a great dark mode.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row">
+                            <div className="col-lg-6">
+                                <div className="traffic-thumb-only-mobile">
+                                    <img
+                                        className="wow animated fadeInRight"
+                                        data-wow-duration="2000ms"
+                                        data-wow-delay="200ms"
+                                        src={thumb}
+                                        alt=""
+                                    />
                                 </div>
                             </div>
                         </div>

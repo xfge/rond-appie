@@ -1,17 +1,20 @@
 import React, { useState } from 'react';
-import thumb from '../../assets/images/features-thumb-1.png';
 import shapeSix from '../../assets/images/shape/shape-6.png';
 import shapeSeven from '../../assets/images/shape/shape-7.png';
 import shapeEight from '../../assets/images/shape/shape-8.png';
+import donut from '../../assets/images/2-1_iphone13blue_portrait.png';
+import chart from '../../assets/images/4_iphone13blue_portrait.png';
+import donutMore from '../../assets/images/2-2_iphone13blue_portrait.png';
+import notes from '../../assets/images/7_iphone13blue_portrait.png';
 
 function FeaturesHomeOne({ className }) {
-    const [tab, setTab] = useState('setting');
+    const [tab, setTab] = useState('1');
     const handleClick = (e, value) => {
         e.preventDefault();
         setTab(value);
     };
     return (
-        <section className={`appie-features-area pt-100 ${className}`} id="features">
+        <section className={`appie-features-area pb-80 ${className}`} id="features">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-3">
@@ -23,8 +26,8 @@ function FeaturesHomeOne({ className }) {
                                 aria-orientation="vertical"
                             >
                                 <a
-                                    onClick={(e) => handleClick(e, 'setting')}
-                                    className={`nav-link ${tab === 'setting' ? 'active' : ''}`}
+                                    onClick={(e) => handleClick(e, '1')}
+                                    className={`nav-link ${tab === '1' ? 'active' : ''}`}
                                     id="v-pills-home-tab"
                                     data-toggle="pill"
                                     href="#v-pills-home"
@@ -32,11 +35,11 @@ function FeaturesHomeOne({ className }) {
                                     aria-controls="v-pills-home"
                                     aria-selected="true"
                                 >
-                                    <i className="fas fa-cog" /> Settings
+                                    <i className="fas fa-cog" /> Logged automatically
                                 </a>
                                 <a
-                                    onClick={(e) => handleClick(e, 'report')}
-                                    className={`nav-link ${tab === 'report' ? 'active' : ''}`}
+                                    onClick={(e) => handleClick(e, '2')}
+                                    className={`nav-link ${tab === '2' ? 'active' : ''}`}
                                     id="v-pills-profile-tab"
                                     data-toggle="pill"
                                     href="#v-pills-profile"
@@ -44,11 +47,11 @@ function FeaturesHomeOne({ className }) {
                                     aria-controls="v-pills-profile"
                                     aria-selected="false"
                                 >
-                                    <i className="fas fa-exclamation-triangle" /> Report
+                                    <i className="fas fa-exclamation-triangle" /> Power-saving
                                 </a>
                                 <a
-                                    onClick={(e) => handleClick(e, 'notice')}
-                                    className={`nav-link ${tab === 'notice' ? 'active' : ''}`}
+                                    onClick={(e) => handleClick(e, '3')}
+                                    className={`nav-link ${tab === '3' ? 'active' : ''}`}
                                     id="v-pills-messages-tab"
                                     data-toggle="pill"
                                     href="#v-pills-messages"
@@ -56,11 +59,11 @@ function FeaturesHomeOne({ className }) {
                                     aria-controls="v-pills-messages"
                                     aria-selected="false"
                                 >
-                                    <i className="fas fa-bell" /> Saeety Notices
+                                    <i className="fas fa-bell" /> Visualize your activities
                                 </a>
                                 <a
-                                    onClick={(e) => handleClick(e, 'app')}
-                                    className={`nav-link ${tab === 'app' ? 'active' : ''}`}
+                                    onClick={(e) => handleClick(e, '4')}
+                                    className={`nav-link ${tab === '4' ? 'active' : ''}`}
                                     id="v-pills-settings-tab"
                                     data-toggle="pill"
                                     href="#v-pills-settings"
@@ -68,7 +71,7 @@ function FeaturesHomeOne({ className }) {
                                     aria-controls="v-pills-settings"
                                     aria-selected="false"
                                 >
-                                    <i className="fas fa-lock" /> App Lock
+                                    <i className="fas fa-lock" /> Privacy First
                                 </a>
                             </div>
                         </div>
@@ -76,9 +79,7 @@ function FeaturesHomeOne({ className }) {
                     <div className="col-lg-9">
                         <div className="tab-content" id="v-pills-tabContent">
                             <div
-                                className={`${
-                                    tab === 'setting' ? 'show active' : ''
-                                } tab-pane fade`}
+                                className={`${tab === '1' ? 'show active' : ''} tab-pane fade`}
                                 id="v-pills-home"
                                 role="tabpanel"
                                 aria-labelledby="v-pills-home-tab"
@@ -90,7 +91,7 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-duration="2000ms"
                                             data-wow-delay="200ms"
                                         >
-                                            <img src={thumb} alt="" />
+                                            <img src={donut} height={600} alt="" />
                                         </div>
                                     </div>
                                     <div className="col-lg-6">
@@ -99,21 +100,20 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-duration="2000ms"
                                             data-wow-delay="600ms"
                                         >
-                                            <span>Pure Native Design</span>
-                                            <h3 className="title">Easy to use</h3>
+                                            <span>Logged automatically</span>
+                                            <h3 className="title">
+                                                Don't bother recording yourself.
+                                            </h3>
                                             <p>
-                                                Rond runs just like a native app <br />
-                                                "Health", "Fitness"
+                                                It's time to say goodbye to manual log details of
+                                                every visit.
                                             </p>
-                                            {/* <Link className="main-btn" to="/about-us"> */}
-                                            {/*    Learn More */}
-                                            {/* </Link> */}
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div
-                                className={`${tab === 'report' ? 'show active' : ''} tab-pane fade`}
+                                className={`${tab === '2' ? 'show active' : ''} tab-pane fade`}
                                 id="v-pills-profile"
                                 role="tabpanel"
                                 aria-labelledby="v-pills-profile-tab"
@@ -125,7 +125,7 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-duration="2000ms"
                                             data-wow-delay="200ms"
                                         >
-                                            <img src={thumb} alt="" />
+                                            <img src={donutMore} height={600} alt="" />
                                         </div>
                                     </div>
                                     <div className="col-lg-6">
@@ -134,23 +134,18 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-duration="2000ms"
                                             data-wow-delay="600ms"
                                         >
-                                            <span>Custom Reacyions</span>
-                                            <h3 className="title">
-                                                Let the <br /> Conversation flow
-                                            </h3>
+                                            <span>Power-saving</span>
+                                            <h3 className="title">No background running.</h3>
                                             <p>
-                                                Car boot absolutely bladdered posh burke the
-                                                wireless mush some dodg.
+                                                Rond uses the visits prepared by the system, instead
+                                                of accessing your location all the time.
                                             </p>
-                                            <a className="main-btn" href="#">
-                                                Learn More
-                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div
-                                className={`${tab === 'notice' ? 'show active' : ''} tab-pane fade`}
+                                className={`${tab === '3' ? 'show active' : ''} tab-pane fade`}
                                 id="v-pills-messages"
                                 role="tabpanel"
                                 aria-labelledby="v-pills-messages-tab"
@@ -162,7 +157,7 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-duration="2000ms"
                                             data-wow-delay="200ms"
                                         >
-                                            <img src={thumb} alt="" />
+                                            <img src={chart} height={600} alt="" />
                                         </div>
                                     </div>
                                     <div className="col-lg-6">
@@ -171,23 +166,19 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-duration="2000ms"
                                             data-wow-delay="600ms"
                                         >
-                                            <span>Custom Reacyions</span>
+                                            <span>Visualize your activities</span>
                                             <h3 className="title">
-                                                Let the <br /> Conversation flow
+                                                Check out various charts and metrics.
                                             </h3>
                                             <p>
-                                                Car boot absolutely bladdered posh burke the
-                                                wireless mush some dodg.
+                                                You can always stay on top of your activity trends.
                                             </p>
-                                            <a className="main-btn" href="#">
-                                                Learn More
-                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div
-                                className={`${tab === 'app' ? 'show active' : ''} tab-pane fade`}
+                                className={`${tab === '4' ? 'show active' : ''} tab-pane fade`}
                                 id="v-pills-settings"
                                 role="tabpanel"
                                 aria-labelledby="v-pills-settings-tab"
@@ -199,7 +190,7 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-duration="2000ms"
                                             data-wow-delay="200ms"
                                         >
-                                            <img src={thumb} alt="" />
+                                            <img src={notes} height={600} alt="" />
                                         </div>
                                     </div>
                                     <div className="col-lg-6">
@@ -208,17 +199,9 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-duration="2000ms"
                                             data-wow-delay="600ms"
                                         >
-                                            <span>Custom Reacyions</span>
-                                            <h3 className="title">
-                                                Let the <br /> Conversation flow
-                                            </h3>
-                                            <p>
-                                                Car boot absolutely bladdered posh burke the
-                                                wireless mush some dodg.
-                                            </p>
-                                            <a className="main-btn" href="#">
-                                                Learn More
-                                            </a>
+                                            <span>Privacy First</span>
+                                            <h3 className="title">Your data belongs to you.</h3>
+                                            <p>Rond never sends, sells, shares your data.</p>
                                         </div>
                                     </div>
                                 </div>

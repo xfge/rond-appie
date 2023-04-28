@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 
 import StickyMenu from '../../lib/StickyMenu';
-import logo from '../../assets/images/logo.png';
-import logo7 from '../../assets/images/logo-7.png';
+import logoWhite from '../../assets/images/logo-white.png';
+import logoBlack from '../../assets/images/logo-black.png';
 
 function HomeOneHeader({
     lang,
@@ -26,11 +26,11 @@ function HomeOneHeader({
                             <div className="appie-logo-box">
                                 {darkEnable && dark ? (
                                     <a href="/">
-                                        <img src={logo7} alt="" />
+                                        <img src={logoWhite} alt="" />
                                     </a>
                                 ) : (
                                     <a href="/">
-                                        <img src={logo} alt="" />
+                                        <img src={logoBlack} alt="" />
                                     </a>
                                 )}
                             </div>

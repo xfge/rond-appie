@@ -1,5 +1,5 @@
 import React from 'react';
-import featureThumb from '../../assets/images/features-thumb-2.png';
+import featureThumb from '../../assets/images/3_iphone13blue_portrait.png';
 import shape13 from '../../assets/images/shape/shape-13.png';
 import shape14 from '../../assets/images/shape/shape-14.png';
 import shape15 from '../../assets/images/shape/shape-15.png';
@@ -12,12 +12,10 @@ function FeaturesHomeTwo() {
                     <div className="row justify-content-center">
                         <div className="col-lg-12">
                             <div className="appie-section-title appie-section-title-2 text-center">
-                                <h3 className="appie-title">
-                                    Wherever you need <br />
-                                    us the most
-                                </h3>
+                                <h3 className="appie-title">Your footprint map. Always ready.</h3>
                                 <p>
-                                    The full monty spiffing good time no biggie cack grub fantastic.
+                                    It's easier than ever to share your excellent journey to your
+                                    friends.
                                 </p>
                             </div>
                         </div>
@@ -26,16 +24,16 @@ function FeaturesHomeTwo() {
                         <div className="col-lg-6">
                             <div className="appie-features-boxes">
                                 <div className="appie-features-box-item">
-                                    <h4 className="title">Well Integrated</h4>
-                                    <p>The bee's knees chancer car boot absolutely.</p>
-                                </div>
-                                <div className="appie-features-box-item item-2">
-                                    <h4 className="title">Clean and modern Design</h4>
-                                    <p>The bee's knees chancer car boot absolutely.</p>
+                                    <h4 className="title">Customized map</h4>
+                                    <p>Create your own map to show how you explore the worlds.</p>
                                 </div>
                                 <div className="appie-features-box-item item-3">
-                                    <h4 className="title">Light and dark mode</h4>
-                                    <p>The bee's knees chancer car boot absolutely.</p>
+                                    <h4 className="title">Easy to share</h4>
+                                    <p>Share your self-made travel guide to social media.</p>
+                                </div>
+                                <div className="appie-features-box-item item-2">
+                                    <h4 className="title">Notes support</h4>
+                                    <p>You can make notes on every amazing visit.</p>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +43,7 @@ function FeaturesHomeTwo() {
                                 data-wow-duration="2000ms"
                                 data-wow-delay="200ms"
                             >
-                                <img src={featureThumb} alt="" />
+                                <img src={featureThumb} width={400} alt="" />
                             </div>
                         </div>
                     </div>

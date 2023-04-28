@@ -21,5 +21,7 @@
   "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
-  }
+  },
+  "appService.defaultWebAppToDeploy": "/subscriptions/97ed289b-6b76-461a-8a8d-25e3c20bf8cf/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/rond",
+  "appService.deploySubpath": "."
 }
