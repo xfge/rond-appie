@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import useToggle from '../../Hooks/useToggle';
 import BackToTop from '../BackToTop';
 import FaqHomeOne from '../HomeOne/FaqHomeOne';
@@ -11,18 +11,6 @@ import FeaturesHomeOne from '../HomeOne/FeaturesHomeOne';
 
 function HomeDark() {
     const [darkMode, setDarkMode] = useToggle(true);
-
-    useEffect(() => {
-        document.body.classList.add('appie-init');
-        if (darkMode) {
-            document.body.classList.add('appie-dark');
-        } else {
-            document.body.classList.remove('appie-dark');
-        }
-        return () => {
-            document.body.classList.remove('appie-dark');
-        };
-    });
 
     return (
         <>

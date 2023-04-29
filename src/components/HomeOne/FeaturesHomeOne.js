@@ -104,7 +104,10 @@ function FeaturesHomeOne({ className }) {
                                             <h3 className="title">
                                                 Track your itinerary. Automatically.
                                             </h3>
-                                            <p>Where you've visited and how long you've been are logged automatically.</p>
+                                            <p>
+                                                Where you've visited and how long you've been are
+                                                logged automatically.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -164,12 +167,8 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-delay="600ms"
                                         >
                                             <span>Statistics</span>
-                                            <h3 className="title">
-                                                Visualize your activities.
-                                            </h3>
-                                            <p>
-                                                Stay on top of your activity trends.
-                                            </p>
+                                            <h3 className="title">Visualize your activities.</h3>
+                                            <p>Stay on top of your activity trends.</p>
                                         </div>
                                     </div>
                                 </div>

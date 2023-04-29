@@ -3,6 +3,7 @@ import heroThumbOne from '../../assets/images/1_iphone13blue_portrait.png';
 import shapeFour from '../../assets/images/shape/shape-4.png';
 import shapeThree from '../../assets/images/shape/shape-3.png';
 import shapeTwo from '../../assets/images/shape/shape-2.png';
+import download from '../../assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg';
 
 function HeroHomeOne({ className }) {
     return (
@@ -20,13 +21,9 @@ function HeroHomeOne({ className }) {
                                     Places you've visited are logged automatically. Rond organizes
                                     your activities in timeline.
                                 </p>
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <i className="fab fa-apple" /> Download for iOS
-                                        </a>
-                                    </li>
-                                </ul>
+                                <div className="apps-download-btn">
+                                    <img src={download} alt="Download on the App Store" />
+                                </div>
                             </div>
                         </div>
                         <div className="col-lg-6">

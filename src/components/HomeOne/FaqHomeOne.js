@@ -13,7 +13,7 @@ function FaqHomeOne({ className }) {
                         <div className="col-lg-12">
                             <div className="appie-section-title text-center">
                                 <h3 className="appie-title">Frequently asked questions</h3>
-                                <p>Different layouts and styles for team sections.</p>
+                                {/* <p>Different layouts and styles for team sections.</p> */}
                             </div>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ function FaqHomeOne({ className }) {
                                     >
                                         <div className="accrodion-inner">
                                             <div className="accrodion-title">
-                                                <h4>Where do I usually find FAQs in a page?</h4>
+                                                <h4>How it works?</h4>
                                             </div>
                                             <div
                                                 className="accrodion-content"
@@ -44,9 +44,17 @@ function FaqHomeOne({ className }) {
                                             >
                                                 <div className="inner">
                                                     <p>
-                                                        Naff Oxford vagabond in my flat chinwag
-                                                        blatant grub tomfoolery that I bits and bobs
-                                                        up the duff cras boot bevvy no biggie.
+                                                        Rond receives the notification from the
+                                                        system every time when you leave a place
+                                                        where you've stayed for a while. The system
+                                                        includes the coordinate and duration about
+                                                        this visit event.
+                                                    </p>
+                                                    <p>
+                                                        Rond records the information and links it
+                                                        with the places you've marked. If none, a
+                                                        new place will be created and you'll be
+                                                        notified to mark your activity.
                                                     </p>
                                                 </div>
                                             </div>
@@ -58,7 +66,7 @@ function FaqHomeOne({ className }) {
                                     >
                                         <div className="accrodion-inner">
                                             <div className="accrodion-title">
-                                                <h4>Where do I usually find FAQs in a page?</h4>
+                                                <h4>Is it energy consuming?</h4>
                                             </div>
                                             <div
                                                 className="accrodion-content"
@@ -67,10 +75,21 @@ function FaqHomeOne({ className }) {
                                                 }}
                                             >
                                                 <div className="inner">
+                                                    <p>No.</p>
                                                     <p>
-                                                        Naff Oxford vagabond in my flat chinwag
-                                                        blatant grub tomfoolery that I bits and bobs
-                                                        up the duff cras boot bevvy no biggie.
+                                                        Rond adopts the most energy-efficient
+                                                        strategy in iOS location services. The app
+                                                        will not run in the background, and only
+                                                        perform simple data processing when it
+                                                        occurs at a specific time (similar to the
+                                                        location-based reminders of the "reminders"
+                                                        app).
+                                                    </p>
+                                                    <p>
+                                                        You don't need it to be like a map Running
+                                                        in the background like a navigation or track
+                                                        tracking app will consume battery power
+                                                        continuously.
                                                     </p>
                                                 </div>
                                             </div>
@@ -95,7 +114,10 @@ function FaqHomeOne({ className }) {
                                     >
                                         <div className="accrodion-inner">
                                             <div className="accrodion-title">
-                                                <h4>Where do I usually find FAQs in a page?</h4>
+                                                <h4>
+                                                    I am concerned about your collection of my
+                                                    location data.
+                                                </h4>
                                             </div>
                                             <div
                                                 className="accrodion-content"
@@ -105,9 +127,30 @@ function FaqHomeOne({ className }) {
                                             >
                                                 <div className="inner">
                                                     <p>
-                                                        Naff Oxford vagabond in my flat chinwag
-                                                        blatant grub tomfoolery that I bits and bobs
-                                                        up the duff cras boot bevvy no biggie.
+                                                        Rond practices that your data always belongs
+                                                        to you.
+                                                    </p>
+                                                    <p>
+                                                        Rond uses Core Data supported by iOS as a
+                                                        database. All your data is only stored on
+                                                        your device. Even if you enable iCloud sync,
+                                                        the data will still be stored encrypted on
+                                                        Apple's servers, just like other native
+                                                        apps.
+                                                    </p>
+                                                    <p>
+                                                        Rond uses Core Data supported by iOS as a
+                                                        database. All your data is only stored on
+                                                        your device. Even if you enable iCloud sync,
+                                                        the data will still be stored encrypted on
+                                                        Apple's servers, just like other native
+                                                        apps. We understand your concern, but you
+                                                        don't have to.
+                                                    </p>
+                                                    <p>
+                                                        Therefore, you should understand that when
+                                                        you delete the app, all data will also be
+                                                        deleted and cannot be recovered.
                                                     </p>
                                                 </div>
                                             </div>
@@ -119,7 +162,10 @@ function FaqHomeOne({ className }) {
                                     >
                                         <div className="accrodion-inner">
                                             <div className="accrodion-title">
-                                                <h4>Where do I usually find FAQs in a page?</h4>
+                                                <h4>
+                                                    What if I have more than one activity in one
+                                                    place?
+                                                </h4>
                                             </div>
                                             <div
                                                 className="accrodion-content"
@@ -129,23 +175,22 @@ function FaqHomeOne({ className }) {
                                             >
                                                 <div className="inner">
                                                     <p>
-                                                        Naff Oxford vagabond in my flat chinwag
-                                                        blatant grub tomfoolery that I bits and bobs
-                                                        up the duff cras boot bevvy no biggie.
+                                                        Rond associates a visit with a single place
+                                                        and a single activity. In fact, as an app
+                                                        that does not run in the background, it
+                                                        cannot infer whether you are performing
+                                                        multiple activities in one place.
+                                                    </p>
+                                                    <p>
+                                                        You can "split" a single visit and label
+                                                        them as separate activities. You can do this
+                                                        easily in Rond.
                                                     </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-12">
-                            <div className="faq-text text-center pt-40">
-                                <p>
-                                    Can't find an answer?{' '}
-                                    <a href="mailto:demo@gmail.com">Email us</a>
-                                </p>
                             </div>
                         </div>
                     </div>

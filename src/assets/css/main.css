@@ -1400,8 +1400,8 @@ p {
     3.APPIE HERO css 
 ===========================*/
 .appie-hero-area {
-  padding-top: 200px;
-  padding-bottom: 110px;
+  padding-top: 140px;
+  padding-bottom: 80px;
   overflow: hidden;
   position: relative;
   z-index: 10;
@@ -1757,6 +1757,10 @@ p {
 .appie-hero-content p {
   font-size: 18px;
   line-height: 28px;
+}
+.appie-hero-content .apps-download-btn img {
+  margin-top: 20px;
+  height: 52px;
 }
 @media (max-width: 767px) {
   .appie-hero-content p {
@@ -2649,17 +2653,34 @@ p {
 }
 .service-details-content .content {
   padding-top: 34px;
+  color: #fff;
 }
 .service-details-content .content .title {
+  color: #fff;
   font-size: 30px;
   margin-bottom: 18px;
 }
 .service-details-content .content span {
   font-size: 20px;
   line-height: 30px;
-  color: #0e1133;
+  color: #fff;
   padding-top: 34px;
   padding-bottom: 26px;
+}
+.service-details-content p {
+  color: #fff;
+  padding: 10px 0;
+}
+.service-details-content h4 {
+  color: #fff;
+  padding: 20px 0;
+}
+.service-details-content ul {
+  padding-left: 24px;
+  list-style-type: inherit;
+}
+.service-details-content a {
+  color: #f6ac0e;
 }
 
 .appie-services-8-area .service-thumb {
@@ -2834,7 +2855,7 @@ p {
 
 .appie-features-box-item {
   border: 1px solid #202234;
-  padding: 25px 30px 30px 70px;
+  padding: 25px 30px 25px 70px;
   border-radius: 6px;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;

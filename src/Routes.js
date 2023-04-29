@@ -1,9 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
-
-import AboutUs from './components/AboutUs';
-import AboutUsTwo from './components/AboutUs/AboutUsTwo';
-import Contact from './components/Contact';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Error from './components/Error';
 import HomeDark from './components/HomeDark';
 import HomeEight from './components/HomeEight';
@@ -17,10 +13,9 @@ import Hometwo from './components/HomeTwo';
 import Loader from './components/Helper/Loader';
 import News from './components/News';
 import ScrollToTop from './components/Helper/ScrollToTop';
-import Service from './components/Service';
-import ShopDetails from './components/Shops/Details';
-import Shops from './components/Shops';
+import Privacy from './components/PrivacyPolicy';
 import SingleNews from './components/News/SingleNews';
+import Terms from './components/Terms';
 
 function Routes() {
     const [loading, setLoading] = useState(true);
@@ -55,13 +50,8 @@ function Routes() {
                             <Route exact path="/home-rtl" component={HomeRtl} />
                             <Route exact path="/news" component={News} />
                             <Route exact path="/news/single-news" component={SingleNews} />
-                            <Route exact path="/service" component={Service} />
-                            <Route exact path="/about-us" component={AboutUs} />
-                            <Route exact path="/contact" component={Contact} />
-                            <Route exact path="/error" component={Error} />
-                            <Route exact path="/about-us-another" component={AboutUsTwo} />
-                            <Route exact path="/shops" component={Shops} />
-                            <Route exact path="/shops/shop-details" component={ShopDetails} />
+                            <Route exact path="/privacy" component={Privacy} />
+                            <Route exact path="/terms" component={Terms} />
                             <Route component={Error} />
                         </Switch>
                     </ScrollToTop>

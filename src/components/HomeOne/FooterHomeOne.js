@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/images/logo-white.png';
+import download from '../../assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg';
 
 function FooterHomeOne({ className }) {
     return (
@@ -8,7 +9,7 @@ function FooterHomeOne({ className }) {
             <section className={`appie-footer-area ${className || ''}`}>
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6 col-md-6">
+                        <div className="col-lg-8 col-md-6">
                             <div className="footer-about-widget">
                                 <div className="logo">
                                     <a href="#">
@@ -17,7 +18,7 @@ function FooterHomeOne({ className }) {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg-2 col-md-6">
                             <div className="footer-navigation">
                                 <h4 className="title">App</h4>
                                 <ul>
@@ -30,18 +31,15 @@ function FooterHomeOne({ className }) {
                                 </ul>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6">
+                        <div className="col-lg-2 col-md-6">
                             <div className="footer-navigation">
                                 <h4 className="title">Support</h4>
                                 <ul>
                                     <li>
-                                        <Link to="/">What's New</Link>
+                                        <Link to="/privacy">Privacy Policy</Link>
                                     </li>
                                     <li>
-                                        <Link to="/">Privacy Notice</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/">Terms of Use</Link>
+                                        <Link to="/terms">Terms of Use</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -63,16 +61,10 @@ function FooterHomeOne({ className }) {
                         <div className="col-lg-12">
                             <div className="footer-copyright d-flex align-items-center justify-content-between pt-35">
                                 <div className="apps-download-btn">
-                                    <ul>
-                                        <li>
-                                            <a href="#">
-                                                <i className="fab fa-apple" /> Download for iOS
-                                            </a>
-                                        </li>
-                                    </ul>
+                                    <img src={download} alt="Download on the App Store" />
                                 </div>
                                 <div className="copyright-text">
-                                    <p>Copyright © 2021 Appie. All rights reserved.</p>
+                                    <p>Copyright © 2023 Rond. All rights reserved.</p>
                                 </div>
                             </div>
                         </div>
