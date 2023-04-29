@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
+import donut from '../../assets/images/2-1_iphone13blue_portrait.png';
+import donutMore from '../../assets/images/2-2_iphone13blue_portrait.png';
+import chart from '../../assets/images/4_iphone13blue_portrait.png';
+import notes from '../../assets/images/7_iphone13blue_portrait.png';
 import shapeSix from '../../assets/images/shape/shape-6.png';
 import shapeSeven from '../../assets/images/shape/shape-7.png';
 import shapeEight from '../../assets/images/shape/shape-8.png';
-import donut from '../../assets/images/2-1_iphone13blue_portrait.png';
-import chart from '../../assets/images/4_iphone13blue_portrait.png';
-import donutMore from '../../assets/images/2-2_iphone13blue_portrait.png';
-import notes from '../../assets/images/7_iphone13blue_portrait.png';
 
 function FeaturesHomeOne({ className }) {
     const [tab, setTab] = useState('1');
@@ -35,7 +35,7 @@ function FeaturesHomeOne({ className }) {
                                     aria-controls="v-pills-home"
                                     aria-selected="true"
                                 >
-                                    <i className="fas fa-cog" /> Logged automatically
+                                    <i className="fas fa-robot" /> Logged automatically
                                 </a>
                                 <a
                                     onClick={(e) => handleClick(e, '2')}
@@ -47,7 +47,7 @@ function FeaturesHomeOne({ className }) {
                                     aria-controls="v-pills-profile"
                                     aria-selected="false"
                                 >
-                                    <i className="fas fa-exclamation-triangle" /> Power-saving
+                                    <i className="fas fa-battery-bolt" /> Power-saving
                                 </a>
                                 <a
                                     onClick={(e) => handleClick(e, '3')}
@@ -59,7 +59,7 @@ function FeaturesHomeOne({ className }) {
                                     aria-controls="v-pills-messages"
                                     aria-selected="false"
                                 >
-                                    <i className="fas fa-bell" /> Visualize your activities
+                                    <i className="fas fa-chart-pie" /> Statistics
                                 </a>
                                 <a
                                     onClick={(e) => handleClick(e, '4')}
@@ -104,7 +104,7 @@ function FeaturesHomeOne({ className }) {
                                             <h3 className="title">
                                                 Track your itinerary. Automatically.
                                             </h3>
-                                            <p>Never bother logging each visit manually.</p>
+                                            <p>Where you've visited and how long you've been are logged automatically.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -163,12 +163,12 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-duration="2000ms"
                                             data-wow-delay="600ms"
                                         >
-                                            <span>Visualize your activities</span>
+                                            <span>Statistics</span>
                                             <h3 className="title">
-                                                Check out various charts and metrics.
+                                                Visualize your activities.
                                             </h3>
                                             <p>
-                                                You can always stay on top of your activity trends.
+                                                Stay on top of your activity trends.
                                             </p>
                                         </div>
                                     </div>
