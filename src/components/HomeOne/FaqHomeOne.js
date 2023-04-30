@@ -34,7 +34,7 @@ function FaqHomeOne({ className }) {
                                     >
                                         <div className="accrodion-inner">
                                             <div className="accrodion-title">
-                                                <h4>How it works?</h4>
+                                                <h4>How does it work?</h4>
                                             </div>
                                             <div
                                                 className="accrodion-content"
@@ -66,7 +66,7 @@ function FaqHomeOne({ className }) {
                                     >
                                         <div className="accrodion-inner">
                                             <div className="accrodion-title">
-                                                <h4>Is it energy consuming?</h4>
+                                                <h4>Does it consume a lot of battery?</h4>
                                             </div>
                                             <div
                                                 className="accrodion-content"
@@ -86,10 +86,10 @@ function FaqHomeOne({ className }) {
                                                         app).
                                                     </p>
                                                     <p>
-                                                        You don't need it to be like a map Running
-                                                        in the background like a navigation or track
-                                                        tracking app will consume battery power
-                                                        continuously.
+                                                        Rond doesn't (and doesn't have to) run in
+                                                        the background, like a navigation or
+                                                        footprint tracking app which drains battery
+                                                        power continuously.
                                                     </p>
                                                 </div>
                                             </div>
@@ -115,8 +115,7 @@ function FaqHomeOne({ className }) {
                                         <div className="accrodion-inner">
                                             <div className="accrodion-title">
                                                 <h4>
-                                                    I am concerned about your collection of my
-                                                    location data.
+                                                    How do you collect and use my location data?
                                                 </h4>
                                             </div>
                                             <div
@@ -137,15 +136,6 @@ function FaqHomeOne({ className }) {
                                                         the data will still be stored encrypted on
                                                         Apple's servers, just like other native
                                                         apps.
-                                                    </p>
-                                                    <p>
-                                                        Rond uses Core Data supported by iOS as a
-                                                        database. All your data is only stored on
-                                                        your device. Even if you enable iCloud sync,
-                                                        the data will still be stored encrypted on
-                                                        Apple's servers, just like other native
-                                                        apps. We understand your concern, but you
-                                                        don't have to.
                                                     </p>
                                                     <p>
                                                         Therefore, you should understand that when

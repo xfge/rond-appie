@@ -14,8 +14,7 @@ function FeaturesHomeTwo() {
                             <div className="appie-section-title appie-section-title-2 text-center">
                                 <h3 className="appie-title">Your footprint map. Always ready.</h3>
                                 <p>
-                                    It's easier than ever to share your excellent journey to your
-                                    friends.
+                                    It's easier than ever to share your adventures to your friends.
                                 </p>
                             </div>
                         </div>
@@ -29,7 +28,7 @@ function FeaturesHomeTwo() {
                                 </div>
                                 <div className="appie-features-box-item item-3">
                                     <h4 className="title">Easy to share</h4>
-                                    <p>Share your self-made travel guide to social media.</p>
+                                    <p>Share your personalized travel guide to social media.</p>
                                 </div>
                                 <div className="appie-features-box-item item-2">
                                     <h4 className="title">Notes support</h4>

@@ -100,7 +100,7 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-duration="2000ms"
                                             data-wow-delay="600ms"
                                         >
-                                            <span>Logged automatically</span>
+                                            <span>Automatic log</span>
                                             <h3 className="title">
                                                 Track your itinerary. Automatically.
                                             </h3>
