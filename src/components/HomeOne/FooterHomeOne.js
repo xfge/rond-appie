@@ -61,7 +61,11 @@ function FooterHomeOne({ className }) {
                         <div className="col-lg-12">
                             <div className="footer-copyright d-flex align-items-center justify-content-between pt-35">
                                 <div className="apps-download-btn">
-                                    <a href="https://apps.apple.com/app/id1669903815">
+                                    <a
+                                        href="https://apps.apple.com/app/id1669903815"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
                                         <img src={download} alt="Download on the App Store" />
                                     </a>
                                 </div>

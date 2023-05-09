@@ -19,7 +19,13 @@ function HeroHomeOne({ className }) {
                                 </h1>
                                 <p>Discover Your Life's Journey with Automatic Place Logging</p>
                                 <div className="apps-download-btn">
-                                    <img src={download} alt="Download on the App Store" />
+                                    <a
+                                        href="https://apps.apple.com/app/id1669903815"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <img src={download} alt="Download on the App Store" />
+                                    </a>
                                 </div>
                             </div>
                         </div>
