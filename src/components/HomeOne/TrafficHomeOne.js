@@ -9,10 +9,10 @@ function TrafficHomeOne({ className }) {
                     <div className="col-lg-7">
                         <div className="appie-traffic-title">
                             <span>Native Design</span>
-                            <h3 className="title">Straightforward. Native experience.</h3>
+                            <h3 className="title">Straightforward with Native Experience</h3>
                             <p>
-                                Inspired from native apps like "Health", "Fitness". You must be
-                                familiar with everything here.
+                                With Rond, you'll feel right at home if you're familiar with native
+                                iOS apps like "Health" and "Fitness".
                             </p>
                         </div>
                         <div className="row">
@@ -40,7 +40,10 @@ function TrafficHomeOne({ className }) {
                                         <i className="fal fa-check" />
                                     </div>
                                     <h5 className="title">Customizable</h5>
-                                    <p>Decorate your activities by native symbols.</p>
+                                    <p>
+                                        Customize your activities with native symbols to express
+                                        yourself.
+                                    </p>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6">
@@ -49,7 +52,7 @@ function TrafficHomeOne({ className }) {
                                         <i className="fal fa-check" />
                                     </div>
                                     <h5 className="title">Dark Mode</h5>
-                                    <p>Experience a great dark mode.</p>
+                                    <p>Enjoy a great-looking experience with dark mode.</p>
                                 </div>
                             </div>
                         </div>

@@ -15,12 +15,9 @@ function HeroHomeOne({ className }) {
                             <div className="appie-hero-content">
                                 <span>Welcome To Rond</span>
                                 <h1 className="appie-title">
-                                    Location-Based <br /> Life Records.
+                                    Location-Based <br /> Life Records
                                 </h1>
-                                <p>
-                                    Places you've visited are logged automatically. Rond organizes
-                                    your activities in timeline.
-                                </p>
+                                <p>Discover Your Life's Journey with Automatic Place Logging</p>
                                 <div className="apps-download-btn">
                                     <img src={download} alt="Download on the App Store" />
                                 </div>

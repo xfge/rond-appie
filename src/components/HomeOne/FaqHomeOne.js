@@ -12,7 +12,7 @@ function FaqHomeOne({ className }) {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="appie-section-title text-center">
-                                <h3 className="appie-title">Frequently asked questions</h3>
+                                <h3 className="appie-title">Frequently Asked Questions</h3>
                                 {/* <p>Different layouts and styles for team sections.</p> */}
                             </div>
                         </div>
@@ -44,17 +44,19 @@ function FaqHomeOne({ className }) {
                                             >
                                                 <div className="inner">
                                                     <p>
-                                                        Rond receives the notification from the
-                                                        system every time when you leave a place
-                                                        where you've stayed for a while. The system
-                                                        includes the coordinate and duration about
-                                                        this visit event.
+                                                        Rond operates by receiving notifications
+                                                        from the system whenever you leave a
+                                                        location you've stayed at for a period of
+                                                        time. This notification includes details
+                                                        about the coordinates and duration of your
+                                                        visit.
                                                     </p>
                                                     <p>
-                                                        Rond records the information and links it
-                                                        with the places you've marked. If none, a
-                                                        new place will be created and you'll be
-                                                        notified to mark your activity.
+                                                        Rond then records this information and
+                                                        associates it with the places you've already
+                                                        marked in the app. If you haven't marked any
+                                                        places yet, Rond will create a new one for
+                                                        you and prompt you to mark your activity.
                                                     </p>
                                                 </div>
                                             </div>
@@ -77,19 +79,20 @@ function FaqHomeOne({ className }) {
                                                 <div className="inner">
                                                     <p>No.</p>
                                                     <p>
-                                                        Rond adopts the most energy-efficient
-                                                        strategy in iOS location services. The app
-                                                        will not run in the background, and only
-                                                        perform simple data processing when it
-                                                        occurs at a specific time (similar to the
-                                                        location-based reminders of the "reminders"
-                                                        app).
+                                                        Rond is designed to use the most
+                                                        energy-efficient strategy possible for iOS
+                                                        location services. The app does not run in
+                                                        the background, and only processes data when
+                                                        necessary, similar to the location-based
+                                                        reminders in the "Reminders" app.
                                                     </p>
                                                     <p>
-                                                        Rond doesn't (and doesn't have to) run in
-                                                        the background, like a navigation or
-                                                        footprint tracking app which drains battery
-                                                        power continuously.
+                                                        Unlike navigation or footprint tracking apps
+                                                        that run continuously and use a lot of
+                                                        battery power, Rond does not need to run in
+                                                        the background to function properly. As a
+                                                        result, it does not consume a significant
+                                                        amount of battery.
                                                     </p>
                                                 </div>
                                             </div>
@@ -126,21 +129,23 @@ function FaqHomeOne({ className }) {
                                             >
                                                 <div className="inner">
                                                     <p>
-                                                        Rond practices that your data always belongs
-                                                        to you.
+                                                        Rond values your privacy and believes that
+                                                        your data belongs to you and you alone.
                                                     </p>
                                                     <p>
-                                                        Rond uses Core Data supported by iOS as a
-                                                        database. All your data is only stored on
-                                                        your device. Even if you enable iCloud sync,
-                                                        the data will still be stored encrypted on
-                                                        Apple's servers, just like other native
-                                                        apps.
+                                                        Rond uses Core Data, which is supported by
+                                                        iOS, as its database to store your
+                                                        information. This means that all your data
+                                                        is stored only on your device. Even if you
+                                                        enable iCloud sync, your data will still be
+                                                        stored securely and encrypted on Apple's
+                                                        servers, just like other native apps.
                                                     </p>
                                                     <p>
-                                                        Therefore, you should understand that when
-                                                        you delete the app, all data will also be
-                                                        deleted and cannot be recovered.
+                                                        It's important to note that if you delete
+                                                        the Rond app from your device, all your data
+                                                        will also be deleted and cannot be
+                                                        recovered.
                                                     </p>
                                                 </div>
                                             </div>
@@ -165,16 +170,17 @@ function FaqHomeOne({ className }) {
                                             >
                                                 <div className="inner">
                                                     <p>
-                                                        Rond associates a visit with a single place
-                                                        and a single activity. In fact, as an app
-                                                        that does not run in the background, it
-                                                        cannot infer whether you are performing
-                                                        multiple activities in one place.
+                                                        Rond associates each visit with a single
+                                                        place and a single activity. With limited
+                                                        information, it can't automatically detect
+                                                        if you have multiple activities in one
+                                                        place.
                                                     </p>
                                                     <p>
-                                                        You can "split" a single visit and label
-                                                        them as separate activities. You can do this
-                                                        easily in Rond.
+                                                        If you have multiple activities in one
+                                                        place, you can easily "split" the visit into
+                                                        separate activities and label them
+                                                        accordingly within Rond.
                                                     </p>
                                                 </div>
                                             </div>

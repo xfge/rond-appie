@@ -35,7 +35,7 @@ function FeaturesHomeOne({ className }) {
                                     aria-controls="v-pills-home"
                                     aria-selected="true"
                                 >
-                                    <i className="fas fa-robot" /> Logged automatically
+                                    <i className="fas fa-robot" /> Automatic Logging
                                 </a>
                                 <a
                                     onClick={(e) => handleClick(e, '2')}
@@ -105,8 +105,9 @@ function FeaturesHomeOne({ className }) {
                                                 Track your itinerary. Automatically.
                                             </h3>
                                             <p>
-                                                Where you've visited and how long you've been are
-                                                logged automatically.
+                                                Keep track of your visits without lifting a finger.
+                                                Rond automatically records the places you go and how
+                                                long you stay.
                                             </p>
                                         </div>
                                     </div>
@@ -137,8 +138,9 @@ function FeaturesHomeOne({ className }) {
                                             <span>Power-saving</span>
                                             <h3 className="title">No background running.</h3>
                                             <p>
-                                                Rond uses the visits prepared by the system, instead
-                                                of accessing your location all the time.
+                                                Rond works with the data processed by the system,
+                                                meaning we don't need to access your location all
+                                                the time.
                                             </p>
                                         </div>
                                     </div>
@@ -166,9 +168,12 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-duration="2000ms"
                                             data-wow-delay="600ms"
                                         >
-                                            <span>Statistics</span>
+                                            <span>Rich Statistics</span>
                                             <h3 className="title">Visualize your activities.</h3>
-                                            <p>Stay on top of your activity trends.</p>
+                                            <p>
+                                                Learn what your life is made of through data
+                                                insights.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -197,7 +202,10 @@ function FeaturesHomeOne({ className }) {
                                         >
                                             <span>Privacy First</span>
                                             <h3 className="title">Your data belongs to you.</h3>
-                                            <p>Rond never sends, sells, shares your data.</p>
+                                            <p>
+                                                Rond values your privacy, especially when it comes
+                                                to your location. We never send or share your data.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
