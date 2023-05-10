@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import donut from '../../assets/images/2-1_iphone13blue_portrait.png';
+import timeline from '../../assets/images/1_iphone13blue_portrait.png';
 import donutMore from '../../assets/images/2-2_iphone13blue_portrait.png';
 import chart from '../../assets/images/4_iphone13blue_portrait.png';
 import notes from '../../assets/images/7_iphone13blue_portrait.png';
@@ -35,7 +35,7 @@ function FeaturesHomeOne({ className }) {
                                     aria-controls="v-pills-home"
                                     aria-selected="true"
                                 >
-                                    <i className="fas fa-robot" /> Automatic Logging
+                                    <i className="fas fa-robot" /> Auto-Logging
                                 </a>
                                 <a
                                     onClick={(e) => handleClick(e, '2')}
@@ -59,7 +59,7 @@ function FeaturesHomeOne({ className }) {
                                     aria-controls="v-pills-messages"
                                     aria-selected="false"
                                 >
-                                    <i className="fas fa-chart-pie" /> Statistics
+                                    <i className="fas fa-chart-pie" /> Insightful Statistics
                                 </a>
                                 <a
                                     onClick={(e) => handleClick(e, '4')}
@@ -71,7 +71,7 @@ function FeaturesHomeOne({ className }) {
                                     aria-controls="v-pills-settings"
                                     aria-selected="false"
                                 >
-                                    <i className="fas fa-lock" /> Privacy First
+                                    <i className="fas fa-lock" /> Privacy Matters
                                 </a>
                             </div>
                         </div>
@@ -91,7 +91,7 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-duration="2000ms"
                                             data-wow-delay="200ms"
                                         >
-                                            <img src={donut} height={600} alt="" />
+                                            <img src={timeline} height={600} alt="" />
                                         </div>
                                     </div>
                                     <div className="col-lg-6">
@@ -100,7 +100,7 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-duration="2000ms"
                                             data-wow-delay="600ms"
                                         >
-                                            <span>Automatic log</span>
+                                            <span>Auto-Logging</span>
                                             <h3 className="title">
                                                 Track your itinerary. Automatically.
                                             </h3>
@@ -168,7 +168,7 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-duration="2000ms"
                                             data-wow-delay="600ms"
                                         >
-                                            <span>Rich Statistics</span>
+                                            <span>Insightful Statistics</span>
                                             <h3 className="title">Visualize your activities.</h3>
                                             <p>
                                                 Learn what your life is made of through data
@@ -200,7 +200,7 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-duration="2000ms"
                                             data-wow-delay="600ms"
                                         >
-                                            <span>Privacy First</span>
+                                            <span>Privacy Matters</span>
                                             <h3 className="title">Your data belongs to you.</h3>
                                             <p>
                                                 Rond values your privacy, especially when it comes

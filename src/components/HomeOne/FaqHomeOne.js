@@ -54,9 +54,9 @@ function FaqHomeOne({ className }) {
                                                     <p>
                                                         Rond then records this information and
                                                         associates it with the places you've already
-                                                        marked in the app. If you haven't marked any
-                                                        places yet, Rond will create a new one for
-                                                        you and prompt you to mark your activity.
+                                                        marked in the app. If there isn't a good
+                                                        match, Rond will create a new one for you
+                                                        and prompt you to mark the activity there.
                                                     </p>
                                                 </div>
                                             </div>

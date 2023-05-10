@@ -1,5 +1,5 @@
 import React from 'react';
-import heroThumbOne from '../../assets/images/1_iphone13blue_portrait.png';
+import heroThumbOne from '../../assets/images/2-1_iphone13blue_portrait.png';
 import shapeFour from '../../assets/images/shape/shape-4.png';
 import shapeThree from '../../assets/images/shape/shape-3.png';
 import shapeTwo from '../../assets/images/shape/shape-2.png';
