@@ -12,7 +12,7 @@ function TrafficHomeOne({ className }) {
                             <h3 className="title">Straightforward with Native Experience</h3>
                             <p>
                                 With Rond, you'll feel right at home if you're familiar with native
-                                iOS apps like "Health" and "Fitness".
+                                iOS apps like Health and Fitness.
                             </p>
                         </div>
                         <div className="row">

@@ -47,7 +47,7 @@ function FeaturesHomeOne({ className }) {
                                     aria-controls="v-pills-profile"
                                     aria-selected="false"
                                 >
-                                    <i className="fas fa-battery-bolt" /> Power-saving
+                                    <i className="fas fa-battery-bolt" /> Power-Saving
                                 </a>
                                 <a
                                     onClick={(e) => handleClick(e, '3')}
@@ -135,7 +135,7 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-duration="2000ms"
                                             data-wow-delay="600ms"
                                         >
-                                            <span>Power-saving</span>
+                                            <span>Power-Saving</span>
                                             <h3 className="title">No background running.</h3>
                                             <p>
                                                 Rond works with the data processed by the system,
