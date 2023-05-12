@@ -17,7 +17,10 @@ function HeroHomeOne({ className }) {
                                 <h1 className="appie-title">
                                     Location-Based <br /> Life Records
                                 </h1>
-                                <p>Discover Your Life's Journey with Automatic Place Logging</p>
+                                <p>
+                                    Embark on your life journey: explore, document, and share your
+                                    adventures with insightful statistics.
+                                </p>
                                 <div className="apps-download-btn">
                                     <a
                                         href="https://apps.apple.com/app/id1669903815"
