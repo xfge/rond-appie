@@ -136,7 +136,7 @@ function TermsOfUse() {
                                     <p>
                                         If you have any questions or suggestions about my Terms and
                                         Conditions, do not hesitate to contact me at
-                                        xfge.cn@gmail.com.
+                                        rond.app@outlook.com.
                                     </p>
                                 </div>
                             </div>

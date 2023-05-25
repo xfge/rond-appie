@@ -160,7 +160,8 @@ function PrivacyPolicyPage() {
                                     <h4>Contact Us</h4>
                                     <p>
                                         If you have any questions or suggestions about my Privacy
-                                        Policy, do not hesitate to contact me at xfge.cn@gmail.com.
+                                        Policy, do not hesitate to contact me at
+                                        rond.app@outlook.com.
                                     </p>
                                 </div>
                             </div>
