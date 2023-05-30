@@ -41,6 +41,9 @@ function FooterHomeOne({ className }) {
                                     <li>
                                         <Link to="/terms">Terms of Use</Link>
                                     </li>
+                                    <li>
+                                        <a href="mailto:rond.app@outlook.com">Contact Us</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -62,7 +65,7 @@ function FooterHomeOne({ className }) {
                             <div className="footer-copyright d-flex align-items-center justify-content-between pt-35">
                                 <div className="apps-download-btn">
                                     <a
-                                        href="https://apps.apple.com/app/id1669903815"
+                                        href="https://apps.apple.com/app/id1669903815?platform=iphone"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >

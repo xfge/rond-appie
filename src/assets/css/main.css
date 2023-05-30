@@ -19,7 +19,7 @@
 
 -----------------------------------------------------------------------------------*/
 /*===========================
-    1. COMMON css 
+    1. COMMON css
 ===========================*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 body {
@@ -549,7 +549,7 @@ p {
 }
 
 /*===========================
-    SEARCH css 
+    SEARCH css
 ===========================*/
 .search-box {
   position: fixed;
@@ -673,7 +673,7 @@ p {
 }
 
 /*===========================
-    SHOPPING CART css 
+    SHOPPING CART css
 ===========================*/
 .amm-shopping-cart-wrapper .overlay::before {
   content: "";
@@ -842,7 +842,7 @@ p {
 }
 
 /*===========================
-    2.HEADER css 
+    2.HEADER css
 ===========================*/
 .appie-sticky.sticky {
   position: fixed;
@@ -1103,15 +1103,20 @@ p {
   color: #fff;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .appie-header-main-menu {
-    display: none;
-  }
-}
-@media (max-width: 767px) {
-  .appie-header-main-menu {
-    display: none;
-  }
+/*@media only screen and (min-width: 768px) and (max-width: 991px) {*/
+/*  .appie-header-main-menu {*/
+/*    display: none;*/
+/*  }*/
+/*}*/
+/*@media (max-width: 767px) {*/
+/*  .appie-header-main-menu {*/
+/*    display: none;*/
+/*  }*/
+/*}*/
+.appie-header-main-menu-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 .appie-header-main-menu ul {
   margin: 0;
@@ -1397,7 +1402,7 @@ p {
 }
 
 /*===========================
-    3.APPIE HERO css 
+    3.APPIE HERO css
 ===========================*/
 .appie-hero-area {
   padding-top: 140px;
@@ -2306,7 +2311,7 @@ p {
 }
 
 /*===========================
-    4.APPIE SERVOCE css 
+    4.APPIE SERVOCE css
 ===========================*/
 .appie-service-area {
   background: #eef1f6;
@@ -2699,7 +2704,7 @@ p {
 }
 
 /*===========================
-    5.APPIE FEATURES css 
+    5.APPIE FEATURES css
 ===========================*/
 .appie-features-area {
   position: relative;
@@ -2979,7 +2984,7 @@ p {
 }
 
 /*===========================
-    6.APPIE TRAFFICE css 
+    6.APPIE TRAFFICE css
 ===========================*/
 .appie-traffic-area {
   position: relative;
@@ -3131,7 +3136,7 @@ p {
 }
 
 /*===========================
-    6.APPIE TRAFFICE css 
+    6.APPIE TRAFFICE css
 ===========================*/
 .appie-testimonial-area {
   background-image: url(../images/testimonial-bg.png);
@@ -3558,7 +3563,7 @@ p {
 /* =========================vue custom css======================== */
 
 /*===========================
-    7.APPIE TEAM css 
+    7.APPIE TEAM css
 ===========================*/
 .appie-team-item .thumb {
   position: relative;
@@ -3702,7 +3707,7 @@ p {
 }
 
 /*===========================
-    8.APPIE PRICING css 
+    8.APPIE PRICING css
 ===========================*/
 .appie-pricing-area {
   background: #eef1f6;
@@ -3978,7 +3983,7 @@ p {
 }
 
 /*===========================
-    9.APPIE FAQ css 
+    9.APPIE FAQ css
 ===========================*/
 .appie-faq-area {
   background: #eef1f6;
@@ -4275,7 +4280,7 @@ p {
 }
 
 /*===========================
-    10.APPIE BLOG css 
+    10.APPIE BLOG css
 ===========================*/
 .appie-blog-item .thumb {
   overflow: hidden;
@@ -5388,7 +5393,7 @@ blockquote cite {
 }
 
 /*===========================
-    10.APPIE PROJECT css 
+    10.APPIE PROJECT css
 ===========================*/
 .appie-project-area .appie-project-box {
   background-image: url(../images/project-bg.jpg);
@@ -5556,7 +5561,7 @@ blockquote cite {
 }
 
 /*===========================
-    10.APPIE FOOTER css 
+    10.APPIE FOOTER css
 ===========================*/
 .appie-footer-area {
   background: #eef1f6;
@@ -6066,7 +6071,7 @@ blockquote cite {
 }
 
 /*===========================
-    11.APPIE ABOUT css 
+    11.APPIE ABOUT css
 ===========================*/
 .appie-about-box {
   background: #f0f1f7;
@@ -6516,7 +6521,7 @@ blockquote cite {
 }
 
 /*===========================
-    12.APPIE COUNTER css 
+    12.APPIE COUNTER css
 ===========================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .appie-counter-area {
@@ -6607,7 +6612,7 @@ blockquote cite {
 }
 
 /*===========================
-    13.APPIE VIDEO PLAYER css 
+    13.APPIE VIDEO PLAYER css
 ===========================*/
 .appie-video-player-slider .slick-arrow {
   position: absolute;
@@ -6756,7 +6761,7 @@ blockquote cite {
 }
 
 /*===========================
-    14.APPIE DOWNLOAD css 
+    14.APPIE DOWNLOAD css
 ===========================*/
 .appie-download-area {
   background-image: url(../images/download-bg.png);
@@ -7021,7 +7026,7 @@ blockquote cite {
 }
 
 /*===========================
-    15.APPIE FUN FACT css 
+    15.APPIE FUN FACT css
 ===========================*/
 .appie-fun-fact-box {
   background-image: url(../images/fun-fact-bg.jpg);
@@ -7149,7 +7154,7 @@ blockquote cite {
 }
 
 /*===========================
-    15.APPIE SHOWCASE css 
+    15.APPIE SHOWCASE css
 ===========================*/
 .appie-showcase-area {
   background: #eef1f6;
@@ -7234,7 +7239,7 @@ blockquote cite {
 }
 
 /*===========================
-    16.APPIE CONTACT css 
+    16.APPIE CONTACT css
 ===========================*/
 .contact-section {
   position: relative;
@@ -7526,7 +7531,7 @@ blockquote cite {
 }
 
 /*===========================
-    17.APPIE CONTACT css 
+    17.APPIE CONTACT css
 ===========================*/
 .appie-shop-grid-area .bisylms-pagination {
   margin-top: 50px;

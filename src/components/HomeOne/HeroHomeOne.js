@@ -23,7 +23,7 @@ function HeroHomeOne({ className }) {
                                 </p>
                                 <div className="apps-download-btn">
                                     <a
-                                        href="https://apps.apple.com/app/id1669903815"
+                                        href="https://apps.apple.com/app/id1669903815?platform=iphone"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
