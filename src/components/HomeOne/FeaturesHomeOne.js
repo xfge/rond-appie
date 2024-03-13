@@ -138,7 +138,8 @@ function FeaturesHomeOne({ className }) {
                                             <span>Power-Saving</span>
                                             <h3 className="title">No background running.</h3>
                                             <p>
-                                            Rond uses data processed by the system without requiring constant access to your location.
+                                                Rond uses data processed by the system without
+                                                requiring constant access to your location.
                                             </p>
                                         </div>
                                     </div>
@@ -168,9 +169,7 @@ function FeaturesHomeOne({ className }) {
                                         >
                                             <span>Time Management</span>
                                             <h3 className="title">Visualize your activities.</h3>
-                                            <p>
-                                                Gain insights into your life with time reports.
-                                            </p>
+                                            <p>Gain insights into your life with time reports.</p>
                                         </div>
                                     </div>
                                 </div>
