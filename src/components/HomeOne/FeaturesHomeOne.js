@@ -138,9 +138,7 @@ function FeaturesHomeOne({ className }) {
                                             <span>Power-Saving</span>
                                             <h3 className="title">No background running.</h3>
                                             <p>
-                                                Rond works with the data processed by the system,
-                                                meaning we don't need to access your location all
-                                                the time.
+                                            Rond uses data processed by the system without requiring constant access to your location.
                                             </p>
                                         </div>
                                     </div>
@@ -168,11 +166,10 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-duration="2000ms"
                                             data-wow-delay="600ms"
                                         >
-                                            <span>Insightful Statistics</span>
+                                            <span>Time Management</span>
                                             <h3 className="title">Visualize your activities.</h3>
                                             <p>
-                                                Learn what your life is made of through data
-                                                insights.
+                                                Gain insights into your life with time reports.
                                             </p>
                                         </div>
                                     </div>
@@ -200,8 +197,8 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-duration="2000ms"
                                             data-wow-delay="600ms"
                                         >
-                                            <span>Privacy Matters</span>
-                                            <h3 className="title">Your data belongs to you.</h3>
+                                            <span>Privacy First</span>
+                                            <h3 className="title">Your data is safe.</h3>
                                             <p>
                                                 Rond values your privacy, especially when it comes
                                                 to your location. We never send or share your data.

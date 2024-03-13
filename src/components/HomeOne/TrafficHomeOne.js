@@ -22,7 +22,7 @@ function TrafficHomeOne({ className }) {
                                         <i className="fal fa-check" />
                                     </div>
                                     <h5 className="title">Apple Health</h5>
-                                    <p>Check out your health data & Fitness records.</p>
+                                    <p>Seamlessly health data inlcuding sleep graphs from Apple Health.</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6">
@@ -30,8 +30,8 @@ function TrafficHomeOne({ className }) {
                                     <div className="icon">
                                         <i className="fal fa-check" />
                                     </div>
-                                    <h5 className="title">Localized</h5>
-                                    <p>Prepared for a global audience. Powered by ChatGPT.</p>
+                                    <h5 className="title">Tags & Notes</h5>
+                                    <p>Preserve precious moments and unlock new dimensions of stats.</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6">
@@ -41,8 +41,7 @@ function TrafficHomeOne({ className }) {
                                     </div>
                                     <h5 className="title">Customizable</h5>
                                     <p>
-                                        Customize your activities with native symbols to express
-                                        yourself.
+                                        Pin Widgets on Home Screen to track activity trends over time.
                                     </p>
                                 </div>
                             </div>
