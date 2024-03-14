@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
-import logo from '../../assets/images/logo.png';
-import StickyMenu from '../../lib/StickyMenu';
+
 import Navigation from '../Navigation';
+import StickyMenu from '../../lib/StickyMenu';
+import logo from '../../assets/images/logo.png';
 
 function HeaderAbout({ action }) {
     useEffect(() => {
@@ -16,7 +17,7 @@ function HeaderAbout({ action }) {
                             <div className="col-lg-2 col-md-4 col-sm-5 col-6 order-1 order-sm-1">
                                 <div className="appie-logo-box">
                                     <a href="/">
-                                        <img src={logo} alt="" />
+                                        <img src={logo} height={48} alt="" />
                                     </a>
                                 </div>
                             </div>

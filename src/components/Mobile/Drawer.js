@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+
 import { Link } from 'react-router-dom';
 import logo from '../../assets/images/logo.png';
 
@@ -36,7 +37,7 @@ function Drawer({ drawer, action, lang }) {
                                             </a>
                                         </div>
                                         <div className="offcanvas-brand text-center mb-40">
-                                            <img src={logo} alt="" />
+                                            <img src={logo} height={48} alt="" />
                                         </div>
                                         <div id="menu" className="text-left ">
                                             <ul className="offcanvas_main_menu">

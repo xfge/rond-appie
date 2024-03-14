@@ -13,7 +13,7 @@ function FooterHomeOne({ className }) {
                             <div className="footer-about-widget">
                                 <div className="logo">
                                     <a href="#">
-                                        <img src={logo} width={200} alt="" />
+                                        <img src={logo} height={96} alt="" />
                                     </a>
                                 </div>
                             </div>
