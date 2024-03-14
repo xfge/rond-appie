@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import timeline from '../../assets/images/1_iphone13blue_portrait.png';
-import donutMore from '../../assets/images/2-2_iphone13blue_portrait.png';
+
 import chart from '../../assets/images/4_iphone13blue_portrait.png';
+import donutMore from '../../assets/images/2-2_iphone13blue_portrait.png';
 import notes from '../../assets/images/7_iphone13blue_portrait.png';
-import shapeSix from '../../assets/images/shape/shape-6.png';
-import shapeSeven from '../../assets/images/shape/shape-7.png';
 import shapeEight from '../../assets/images/shape/shape-8.png';
+import shapeSeven from '../../assets/images/shape/shape-7.png';
+import shapeSix from '../../assets/images/shape/shape-6.png';
+import timeline from '../../assets/images/1_iphone13blue_portrait.png';
 
 function FeaturesHomeOne({ className }) {
     const [tab, setTab] = useState('1');
@@ -35,7 +36,7 @@ function FeaturesHomeOne({ className }) {
                                     aria-controls="v-pills-home"
                                     aria-selected="true"
                                 >
-                                    <i className="fas fa-robot" /> Auto-Logging
+                                    <i className="fas fa-robot" /> Auto Logging
                                 </a>
                                 <a
                                     onClick={(e) => handleClick(e, '2')}
@@ -47,7 +48,7 @@ function FeaturesHomeOne({ className }) {
                                     aria-controls="v-pills-profile"
                                     aria-selected="false"
                                 >
-                                    <i className="fas fa-battery-bolt" /> Power-Saving
+                                    <i className="fas fa-battery-bolt" /> Power Saving
                                 </a>
                                 <a
                                     onClick={(e) => handleClick(e, '3')}
@@ -59,7 +60,7 @@ function FeaturesHomeOne({ className }) {
                                     aria-controls="v-pills-messages"
                                     aria-selected="false"
                                 >
-                                    <i className="fas fa-chart-pie" /> Insightful Statistics
+                                    <i className="fas fa-chart-pie" /> Time Management
                                 </a>
                                 <a
                                     onClick={(e) => handleClick(e, '4')}
@@ -71,7 +72,7 @@ function FeaturesHomeOne({ className }) {
                                     aria-controls="v-pills-settings"
                                     aria-selected="false"
                                 >
-                                    <i className="fas fa-lock" /> Privacy Matters
+                                    <i className="fas fa-lock" /> Privacy First
                                 </a>
                             </div>
                         </div>
@@ -100,14 +101,11 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-duration="2000ms"
                                             data-wow-delay="600ms"
                                         >
-                                            <span>Auto-Logging</span>
-                                            <h3 className="title">
-                                                Track your itinerary. Automatically.
-                                            </h3>
+                                            <span>Auto Logging</span>
+                                            <h3 className="title">Auto-Generated Timeline</h3>
                                             <p>
-                                                Keep track of your visits without lifting a finger.
-                                                Rond automatically records the places you go and how
-                                                long you stay.
+                                                Rond records your visited locations effortlessly, no
+                                                manual entry needed.
                                             </p>
                                         </div>
                                     </div>
@@ -136,7 +134,7 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-delay="600ms"
                                         >
                                             <span>Power-Saving</span>
-                                            <h3 className="title">No background running.</h3>
+                                            <h3 className="title">No Background Running</h3>
                                             <p>
                                                 Rond uses data processed by the system without
                                                 requiring constant access to your location.
@@ -168,7 +166,7 @@ function FeaturesHomeOne({ className }) {
                                             data-wow-delay="600ms"
                                         >
                                             <span>Time Management</span>
-                                            <h3 className="title">Visualize your activities.</h3>
+                                            <h3 className="title">Visualize Your Days</h3>
                                             <p>Gain insights into your life with time reports.</p>
                                         </div>
                                     </div>
@@ -199,8 +197,8 @@ function FeaturesHomeOne({ className }) {
                                             <span>Privacy First</span>
                                             <h3 className="title">Your data is safe.</h3>
                                             <p>
-                                                Rond values your privacy, especially when it comes
-                                                to your location. We never send or share your data.
+                                                Enjoy peace of mind with no sign-in required,
+                                                ensuring exclusive access to your data.
                                             </p>
                                         </div>
                                     </div>

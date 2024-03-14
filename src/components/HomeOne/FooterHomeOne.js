@@ -1,7 +1,7 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/images/logo-white.png';
+import React from 'react';
 import download from '../../assets/images/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg';
+import logo from '../../assets/images/logo.png';
 
 function FooterHomeOne({ className }) {
     return (

@@ -9,10 +9,11 @@ function TrafficHomeOne({ className }) {
                     <div className="col-lg-7">
                         <div className="appie-traffic-title">
                             <span>Native Design</span>
-                            <h3 className="title">Straightforward with Native Experience</h3>
+                            <h3 className="title">Simple but Powerful</h3>
                             <p>
-                                With Rond, you'll feel right at home if you're familiar with native
-                                iOS apps like Health and Fitness.
+                                Rond is more than just a tracker; it's your personal location
+                                journal, allowing you to capture thoughts tied to special places and
+                                create enchanting travelogues to share with friends.
                             </p>
                         </div>
                         <div className="row">
@@ -21,10 +22,10 @@ function TrafficHomeOne({ className }) {
                                     <div className="icon">
                                         <i className="fal fa-check" />
                                     </div>
-                                    <h5 className="title">Apple Health</h5>
+                                    <h5 className="title">Explorer Map</h5>
                                     <p>
-                                        Seamlessly health data inlcuding sleep graphs from Apple
-                                        Health.
+                                        Trace your travel footprint on the map and uncover how much
+                                        of the world you've explored.
                                     </p>
                                 </div>
                             </div>
@@ -57,8 +58,11 @@ function TrafficHomeOne({ className }) {
                                     <div className="icon">
                                         <i className="fal fa-check" />
                                     </div>
-                                    <h5 className="title">Dark Mode</h5>
-                                    <p>Enjoy a great-looking experience with dark mode.</p>
+                                    <h5 className="title">Enhanced with iOS</h5>
+                                    <p>
+                                        Connect to Apple Health, Shortcuts, Calendar, and more to
+                                        get the most out of the platform.
+                                    </p>
                                 </div>
                             </div>
                         </div>
