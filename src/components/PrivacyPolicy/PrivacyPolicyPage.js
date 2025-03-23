@@ -52,13 +52,22 @@ function PrivacyPolicyPage() {
                                             providers used by the app
                                         </p>
                                         <ul>
-                                            <li>
+                                        <li>
                                                 <a
                                                     href="https://www.revenuecat.com/privacy"
                                                     target="_blank"
                                                     rel="noopener noreferrer"
                                                 >
                                                     RevenueCat
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="https://amplitude.com/privacy"
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                >
+                                                    Amplitude
                                                 </a>
                                             </li>
                                         </ul>
